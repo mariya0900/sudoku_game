@@ -1,0 +1,47 @@
+.title{
+    color: black;
+}
+#board{
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+
+.cell{
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+
+}
+div.boardDiv{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#board td:nth-child(3n){
+    border-right: 5px solid black;
+}
+#board td:first-child{
+    border-left: 5px solid black;
+}
+#board tr:nth-child(3n){
+    border-bottom: 5px solid black;
+}
+#board tr:first-child{
+    border-top: 5px solid black;
+}
+#numbers{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td:hover{
+    background-color: #f5dd90;
+}
+user-input{
+    background-color: #f2f2f2;
+}
+error{
+    background-color: #f76c5e;
+}
