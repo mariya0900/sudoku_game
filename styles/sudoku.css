@@ -45,3 +45,10 @@ user-input{
 error{
     background-color: #f76c5e;
 }
+#high_scores{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 42%;
+    margin-right: 42%;
+    text-align: center;
+}
